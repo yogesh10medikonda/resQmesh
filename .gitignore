@@ -1,0 +1,10 @@
+@"
+buildenv/
+.buildozer/
+bin/
+__pycache__/
+*.pyc
+*.db
+build_log.txt
+.idea/
+"@ | Set-Content -Path .gitignore -Encoding utf8
